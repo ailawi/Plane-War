@@ -48,6 +48,9 @@
     <ClInclude Include="Bullet.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="RandomUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -69,6 +72,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Bullet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomUtils.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

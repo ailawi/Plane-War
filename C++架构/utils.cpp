@@ -5,8 +5,7 @@
 extern Player player;
 
 //是否正在进行游戏
-bool is_Playing = false;
-
+GameState gameState = GameState::MENU;
 
 // 背景图资源
 IMAGE menu_bk_image;      // 菜单背景图
@@ -18,6 +17,8 @@ IMAGE pause_img;
 IMAGE return_game_img;
 IMAGE return_menu_img;
 IMAGE go_set_img;
+
+
 
 
 // 加载所有游戏资源（图片、图集、动画等）

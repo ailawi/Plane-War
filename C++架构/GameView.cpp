@@ -54,8 +54,7 @@ void GameView::draw() {
 }
 
 void GameView::handleInput(ExMessage& msg) {
-	is_Playing = true;
-    
+    gameState = GameState::PLAYING;
     if (player.isAlive==true&& msg.message != NULL) player.handleKey(msg);
 	
 }

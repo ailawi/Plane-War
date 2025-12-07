@@ -131,6 +131,7 @@
     <ClInclude Include="global.h" />
     <ClInclude Include="MenuView.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="RandomUtils.h" />
     <ClInclude Include="SettingView.h" />
     <ClInclude Include="utils.h" />
     <ClInclude Include="view.h" />
@@ -142,6 +143,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MenuView.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="RandomUtils.cpp" />
     <ClCompile Include="SettingView.cpp" />
     <ClCompile Include="utils.cpp" />
   </ItemGroup>

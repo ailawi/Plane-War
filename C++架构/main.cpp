@@ -6,23 +6,15 @@
 #include "Player.h"
 #include "global.h"
 #include "utils.h"
-
-using namespace std;
-
-// 视图相关头文件
 #include "view.h"
 #include "ViewManager.h"
 #include "MenuView.h"
 #include"SettingView.h"
-
+using namespace std;
 
 // 全局对象实例
 ViewManager view_manager;
-
-
 Player player;
-
-
 
 //音乐
 //音乐开关

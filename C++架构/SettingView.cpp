@@ -215,7 +215,7 @@ void SettingView::handleInput(ExMessage& msg) {
                 playSound(0);
             }
             // 切换回菜单视图（调用ViewManager的视图切换功能）
-            if (!is_Playing)view_manager.switch_to(ViewManager::ViewType::Menu);
+            if (gameState != GameState::PLAYING)view_manager.switch_to(ViewManager::ViewType::Menu);
             else view_manager.switch_to(ViewManager::ViewType::Game);
         }
 
