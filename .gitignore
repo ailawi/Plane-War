@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sln.docstates
+*.ipch
+*.sdf
+*.db
+*.opendb
+
+# 编译输出
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.exe
+*.dll
+*.ilk
+*.pdb
+*.obj
+*.lib
+*.log
+*.idb
+*.pch
+
+# 其他
+*.cache
