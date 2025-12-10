@@ -23,13 +23,6 @@ public:
     // 处理人物按键（鼠标输入）
     void handleKey(ExMessage& msg);
 
-    //获取人物是否死亡，返回给gameview视图
-    bool getdie();
-
-    //修改暂停状态，给gameview使用
-    void setdie(bool flag);
-
-
     // 绘制玩家（使用你的putimage_new函数）
     void draw();
     void drawHealthBar();
@@ -46,9 +39,11 @@ public:
 
     // 受伤
     void takeDamage(int damage);
+    
+    //射击
+    void shoot();
 
-    // 复活
-    void respawn();
+    
     
     bool isAlive;               // 是否存活
 private:
